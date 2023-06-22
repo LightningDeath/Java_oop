@@ -35,6 +35,17 @@ public class CalcView {
             return getNumber2();
         }
     }
+    
+    void viewChoice() {
+        System.out.println("""
+                Make your choice:
+                    '+' - addition;
+                    '-' - subtraction;
+                    '*' - multiplication;
+                    '/' - division;
+                    'exit' - exit;
+                """);
+    }
 
     String getOperator() {
         try {
