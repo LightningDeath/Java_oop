@@ -2,14 +2,7 @@ public class CalcPresent {
     public void CalRun() {
         CalcModel model = new CalcModel();
         CalcView view = new CalcView();
-        System.out.println("""
-                Make your choice:
-                    '+' - addition;
-                    '-' - subtraction;
-                    '*' - multiplication;
-                    '/' - division;
-                    'exit' - exit;
-                """);
+        view.viewChoice();
         String operator = view.getOperator();
         double number1 = view.getNumber1();
         double number2 = view.getNumber2();
