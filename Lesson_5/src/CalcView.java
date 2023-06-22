@@ -15,9 +15,8 @@ public class CalcView {
             return in.nextDouble();
         } catch (Exception e) {
             System.out.println("Error! Use only numbers!");
-            getNumber1();
+            return getNumber1();
         }
-        return 0;
     }
 
     double getNumber2() {
