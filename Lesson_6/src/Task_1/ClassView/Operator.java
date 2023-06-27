@@ -17,15 +17,15 @@ public class Operator implements i_Operator {
             System.out.print("Enter operator: ");
             String c = in.nextLine();
             if (c.equals("*") || c.equals("/") || c.equals("-") || c.equals("+")) {
-                in.close();
+                in.reset();
                 return c;
             } else if (c.equalsIgnoreCase("Exit")) {
-                in.close();
+                in.reset();
                 exit(0);
                 return "";
             } else {
                 System.out.println("Error! Use only '*', '/', '+', '-'.");
-                in.close();
+                in.reset();
                 return getOperator();
             }
         } catch (Exception e) {
