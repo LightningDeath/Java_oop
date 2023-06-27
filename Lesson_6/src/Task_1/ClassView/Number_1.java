@@ -15,11 +15,11 @@ public class Number_1 implements i_Number {
         Scanner in = new Scanner(System.in);
         try {
             System.out.print("Enter number: ");
-            in.close();
+            in.reset();
             return in.nextDouble();
         } catch (Exception e) {
             System.out.println("Error! Use only numbers!");
-            in.close();
+            in.reset();
             return getNumber();
         }
     }
