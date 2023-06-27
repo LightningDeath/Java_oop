@@ -18,15 +18,15 @@ public class Number_2 implements i_Number {
             double a = in.nextDouble();
             if (a == 0) {
                 System.out.println("Error! Division by zero! Use another number.");
-                in.close();
+                in.reset();
                 return getNumber();
             } else {
-                in.close();
+                in.reset();
                 return a;
             }
         } catch (Exception e) {
             System.out.println("Error! Use only numbers!");
-            in.close();
+            in.reset();
             return getNumber();
         }
     }
