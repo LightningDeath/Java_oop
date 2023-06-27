@@ -12,8 +12,8 @@ import static java.lang.System.exit;
 public class Operator implements i_Operator {
     @Override
     public String getOperator() {
+        Scanner in =  new Scanner(System.in);
         try {
-            Scanner in =  new Scanner(System.in);
             System.out.print("Enter operator: ");
             String c = in.nextLine();
             if (c.equals("*") || c.equals("/") || c.equals("-") || c.equals("+")) {
@@ -30,6 +30,7 @@ public class Operator implements i_Operator {
             }
         } catch (Exception e) {
             System.out.println("Error! Use only '*', '/', '+', '-'.");
+            in.reset();
             return getOperator();
         }
     }
