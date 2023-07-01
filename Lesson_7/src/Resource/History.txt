@@ -1,0 +1,21 @@
+2023-06-30T22:21:27.591688600
+Complex number 1: 1.0+3.0i
+Complex number 2: 4.0-5.0i
+Operator: +
+Result: 5.0-2.0i
+2023-06-30T22:26:13.782969500
+Complex number 1: 2.0+7.0i
+Complex number 2: 4.0+8.0i
+Operator: *
+Result: -48.0+44.0i
+30-06-2023 22:48:45
+Complex number 1: 1.0+2.0i
+Complex number 2: 4.0+5.0i
+Operator: +
+Result: 5.0+7.0i
+30-06-2023 22:50:28
+Complex number 1: 1.0+3.0i
+Complex number 2: 4.0-5.0i
+Operator: +
+Result: 5.0-2.0i
+----------------------------------

@@ -1,0 +1,24 @@
+02-07-2023 01:54:49
+Complex number 1: 1.0+3.0i
+Complex number 2: 4.0-5.0i
+Operator: +
+Result: 5.0-2.0i
+----------------------------------
+02-07-2023 01:55:00
+Complex number 1: 1.0+3.0i
+Complex number 2: 4.0-5.0i
+Operator: -
+Result: -3.0+8.0i
+----------------------------------
+02-07-2023 01:55:11
+Complex number 1: 1.0+3.0i
+Complex number 2: 4.0-5.0i
+Operator: *
+Result: 19.0+7.0i
+----------------------------------
+02-07-2023 01:55:19
+Complex number 1: 1.0+3.0i
+Complex number 2: 4.0-5.0i
+Operator: /
+Result: -0.2682926829268293+0.4146341463414634i
+----------------------------------

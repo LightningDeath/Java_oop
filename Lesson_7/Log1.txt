@@ -1,0 +1,8 @@
+июл. 02, 2023 1:54:49 AM CalcPresent CalRun
+INFO: 5.0-2.0i
+июл. 02, 2023 1:55:00 AM CalcPresent CalRun
+INFO: -3.0+8.0i
+июл. 02, 2023 1:55:11 AM CalcPresent CalRun
+INFO: 19.0+7.0i
+июл. 02, 2023 1:55:19 AM CalcPresent CalRun
+INFO: -0.2682926829268293+0.4146341463414634i
